@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<link href="estilo.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   </head>
+    <body>
+		
+		<button type="button" class="btn btn-primary" onclick="lista()">Grava</button>
+		<button type="button" class="btn btn-primary" onclick="lista2()">Grava2</button>
+		
+		<button type="button" class="btn btn-primary" onclick="duas()">duas</button>
+
+
+	<script>
+		function duas(){
+			alert("OI");
+			Swal.fire("OI");
+		}
+			function lista2(){
+	    Swal.fire({
+		title: "Good job!",
+		text:"You clicked the button!",
+		icon:"Success",
+		confirmButtonText: "CLIQUE AQUI"
+	})
+            }
+		function lista(){
+			Swal.fire({
+					title: 'Sucesso!',
+					text: 'Do you want to continue',
+					icon: 'error',
+					confirmButtonText: 'Cool'
+				})
+			}
+
+	</script>
+	</body>
+</html>
+
+
+
+
+
+
+
